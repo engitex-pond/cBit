@@ -82,7 +82,7 @@ namespace cbit_display {
 
     }
 
-    //% blockId=cbit_RGB block="RGB七彩|PinR %pin1|引脚G %pin2|引脚B %pin3|red %value1|绿色 %value2|蓝色 %value3"
+    //% blockId=cbit_RGB block="RGBColorful|PinR %pin1|PinG %pin2|PinB %pin3|Red %value1|Green %value2|Blue %value3"
     //% weight=2
     //% blockGap=8
     //% color="#C814B8"
