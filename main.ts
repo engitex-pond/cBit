@@ -82,7 +82,7 @@ namespace cbit_display {
 
     }
 
-    //% blockId=cbit_RGB block="RGB七彩|PinR %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3"
+    //% blockId=cbit_RGB block="RGB七彩|PinR %pin1|引脚G %pin2|引脚B %pin3|red %value1|绿色 %value2|蓝色 %value3"
     //% weight=2
     //% blockGap=8
     //% color="#C814B8"
@@ -456,7 +456,7 @@ namespace cbit_小车类 {
 
         //% blockId="OFF" block="灭"
         OFF = 0,
-        //% blockId="Red" block="红色"
+        //% blockId="Red" block="Red"
         Red,
         //% blockId="Green" block="绿色"
         Green,
@@ -908,7 +908,7 @@ namespace cbit_小车类 {
             }
         }
     }
-    //% blockId=cbit_RGB_Car_Big block="小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3"
+    //% blockId=cbit_RGB_Car_Big block="小车RGB探照灯|red %value1|绿色 %value2|蓝色 %value3"
     //% weight=100
     //% blockGap=10
     //% color="#C814B8"
