@@ -12,7 +12,7 @@ namespace cbit_display {
     
     export enum enColor {
 
-        //% blockId="OFF" block="destroy"
+        //% blockId="OFF" block="OFF"
         OFF = 0,
         //% blockId="Red" block="Red"
         Red,
@@ -32,13 +32,13 @@ namespace cbit_display {
     }
     export enum enLED1 {
         
-        //% blockId="OFF" block="灭"
+        //% blockId="OFF" block="OFF"
         OFF = 0,
-        //% blockId="ON" block="亮"
+        //% blockId="ON" block="ON"
         ON =1
     }
 
-    //% blockId=cbit_LED1 block="LED灯|引脚 %pin|状态 %value"
+    //% blockId=cbit_LED1 block="LED|Pin %pin|status %value"
     //% weight=5
     //% blockGap=8
     //% color="#C814B8"
@@ -49,7 +49,7 @@ namespace cbit_display {
 
     }
 
-    //% blockId=cbit_LED2 block="LED灯|引脚 %pin|亮度 %value"
+    //% blockId=cbit_LED2 block="LED|Pin %pin|brightness %value"
     //% weight=4
     //% blockGap=8
     //% color="#C814B8"
@@ -61,7 +61,7 @@ namespace cbit_display {
 
     }
 
-    //% blockId=cbit_BreathLED block="呼吸灯|引脚 %pin"
+    //% blockId=cbit_BreathLED block="呼吸|Pin %pin"
     //% weight=3
     //% blockGap=8
     //% color="#C814B8"
@@ -82,7 +82,7 @@ namespace cbit_display {
 
     }
 
-    //% blockId=cbit_RGB block="RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3"
+    //% blockId=cbit_RGB block="RGB七彩|PinR %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3"
     //% weight=2
     //% blockGap=8
     //% color="#C814B8"
@@ -95,7 +95,7 @@ namespace cbit_display {
         pins.analogWritePin(pin3, value3 * 1024 / 256);
 
     }
-    //% blockId=cbit_RGB2 block="RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|显示 %value"
+    //% blockId=cbit_RGB2 block="RGB七彩|PinR %pin1|引脚G %pin2|引脚B %pin3|显示 %value"
     //% weight=1
     //% blockGap=8
     //% color="#C814B8"
@@ -498,9 +498,9 @@ namespace cbit_小车类 {
     }
     export enum enPos {
 
-        //% blockId="LeftState" block="左边状态"
+        //% blockId="LeftState" block="左边status"
         LeftState = 1,
-        //% blockId="RightState" block="右边状态"
+        //% blockId="RightState" block="右边status"
         RightState = 0
     }
 
