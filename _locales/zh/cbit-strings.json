@@ -1,33 +1,33 @@
 {
 
-  "cbit_display.LED1|block": "LED灯|引脚 %pin|状态 %value",
-  "cbit_display.LED2|block": "LED灯|引脚 %pin|亮度 %value",
-  "cbit_display.BreathLED|block": "呼吸灯|引脚 %pin",
+  "cbit_display.LED1|block": "LED|Pin %pin|Status %value",
+  "cbit_display.LED2|block": "LED|Pin %pin|Status %value",
+  "cbit_display.BreathLED|block": "Breathinglight|Pin %pin",
   "cbit_display.RGB|block": "RGBColorLED|PinR %pin1|PinG %pin2|PinB %pin3|Red %value1|Green %value2|Blue %value3",
-  "cbit_display.RGB2|block": "RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|显示 %value",
+  "cbit_display.RGB2|block": "RGBColorLED|PinR %pin1|PinG %pin2|PinB %pin3|Show %value",
 
-  "cbit_输入类.TouchPad|block": "触摸开关|引脚 %pin|返回 %value",
-  "cbit_输入类.Rocker|block": "遥杆|VRX %pin1|VRY %pin2|SW %pin3|返回 %value",
-  "cbit_输入类.Button|block": "按键|引脚 %pin|返回 %value",
+  "cbit_Input category.TouchPad|block": "Touch switch|Pin %pin|Return %value",
+  "cbit_Input category.Rocker|block": "Remote control|VRX %pin1|VRY %pin2|SW %pin3|Return %value",
+  "cbit_Input category.Button|block": "Button|Pin %pin|Return %value",
 
-  "cbit_传感器类.Voice_Sensor|block": "声音传感器|引脚 %pin|返回 %value",
-  "cbit_传感器类.IR_Sensor|block": "红外传感器|引脚 %pin|  |%value|障碍物",
-  "cbit_传感器类.IR_Send|block": "红外发射|引脚 %pin",
-  "cbit_传感器类.Ultrasonic|block": "超声波|发射管脚 %Trig|接收管脚 %Echo",
+  "cbit_Sensor category.Voice_Sensor|block": "Sound sensor|Pin %pin|Return %value",
+  "cbit_Sensor category.IR_Sensor|block": "Infrared sensor|Pin %pin|  |%value|Obstacle",
+  "cbit_Sensor category.IR_Send|block": "Infrared emission|Pin %pin",
+  "cbit_Sensor category.Ultrasonic|block": "Ultrasonic|Transmitter pin %Trig|Receiving pin %Echo",
 
-  "cbit_音乐类.Buzzer|block": "有源蜂鸣器|引脚 %pin|值 %value",
+  "cbit_Music category.Buzzer|block": "Active buzzer|Pin %pin|Value %value",
 
-  "cbit_电机类.Fan|block": "风扇|引脚 %pin|速度 %value",
-  "cbit_电机类.Servo|block": "舵机|引脚 %pin|角度 %value",
+  "cbit_Motor category.Fan|block": "Fan|Pin %pin|Speed %value",
+  "cbit_Motor category.Servo|block": "Servo motor|Pin %pin|Angle %value",
 
-  "cbit_小车类.RGB_Car_Big|block": "小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3",
-  "cbit_小车类.RGB_Car_Big2|block": "小车RGB探照灯|选择车灯颜色 %value",
-  "cbit_小车类.Ultrasonic_Car|block": "超声波返回（cm）",
-  "cbit_小车类.RGB_Car_Program|block": "七彩流水灯",
-  "cbit_小车类.Music_Car|block": "小车音乐播放|%index",
-  "cbit_小车类.Line_Sensor|block": "巡线传感器|位置 %direct|检测到 %value",
-  "cbit_小车类.Avoid_Sensor|block": "避障传感器|检测到 %value",
-  "cbit_小车类.Servo_Car|block": "小车舵机|编号 %num|角度 %value",
-  "cbit_小车类.CarCtrl|block": "小车控制|%index",
-  "cbit_小车类.CarCtrlSpeed|block": "小车控制|%index|速度 %speed"
+  "cbit_Minicar category.RGB_Car_Big|block": "MinicarRGB searchlight|Red %value1|Green %value2|Blue %value3",
+  "cbit_Minicar category.RGB_Car_Big2|block": "MinicarRGB searchlight|Choose car light color %value",
+  "cbit_Minicar category.Ultrasonic_Car|block": "UltrasonicReturn（cm）",
+  "cbit_Minicar category.RGB_Car_Program|block": "Running light",
+  "cbit_Minicar category.Music_Car|block": "Minicar music play|%index",
+  "cbit_Minicar category.Line_Sensor|block": "Line following sensor|Location %direct|Detected %value",
+  "cbit_Minicar category.Avoid_Sensor|block": "Avoid sensor|Detected %value",
+  "cbit_Minicar category.Servo_Car|block": "Minicar servo motor|Serial number %num|Angle %value",
+  "cbit_Minicar category.CarCtrl|block": "Minicar control|%index",
+  "cbit_Minicar category.CarCtrlSpeed|block": "Minicar control|%index|Speed %speed"
 }
